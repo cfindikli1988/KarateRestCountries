@@ -1,5 +1,5 @@
-23:24:50.204 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-23:24:51.205 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+00:44:35.188 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:44:36.253 [main] DEBUG com.intuit.karate - request:
 1 > GET https://restcountries.eu/rest/v2/alpha/tr
 1 > Host: restcountries.eu
 1 > Connection: Keep-Alive
@@ -7,41 +7,9 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-23:24:51.205 [pool-1-thread-5] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:24:51.205 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:24:51.205 [pool-1-thread-2] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:24:51.205 [pool-1-thread-4] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:24:51.804 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 576
+00:44:36.771 [main] DEBUG com.intuit.karate - response time in milliseconds: 495
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:51 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:36 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -50,17 +18,27 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f2491000050c9a6b20000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=nN8n2P2IytHGUxuqlpf0e9zkUy9CVGqyeILj1cY13OFslaZWnYDA7o31o%2BvpVCoQ7fNTAFwAwwd4ijV%2Bo48Z4gY2AeEp3tcc%2B4LOYmrBLoahS3AmvEKYBRc2NEPS6A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c8279f000050997b8db000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=%2FLBDPV9Y0txAmIiVKSUOHdZnhe6bo5N2O3ho3JaepM6Xr1uRr1yfqLWPdoWv%2FwD9Xj2H3q3eizyalpOuTjw310VFuDpwaRw3bVojjfQlUlibDMscwrh1TKKZHngQuQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1a8c6450c9-IST
+1 < CF-RAY: 65e642ec383e5099-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:51.803 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 576
+00:44:36.814 [main] INFO  com.intuit.karate - [print] Turkey 
+00:44:36.819 [main] INFO  com.intuit.karate - [print] 39.0 
+00:44:36.856 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:37.166 [main] DEBUG com.intuit.karate - response time in milliseconds: 308
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:51 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:37 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -69,17 +47,27 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f24900000510b6032c000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=cfYqArxbAvzfTZ6MvzhgUNAxO57YhmKgsmYa8hvIRkNaX4nwsnO5751KWr3tnsPqjaA5qtseL3t5nNk7VaDVa4yRN9xZJvLdNlFJ7%2BfQ5%2FVKqj%2BUsCwI7IGBWuKC7A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c82947000050edeb975000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=%2FOf2SbYwFeXbn7ErrSRVCFjYYAeCR%2BW1Gz6DgLGmENcFGwwvpupdmgQdp4PAIq7kgVszf1oJ7iG497RvGcwmPsILmv%2FHPhI%2FOEDDlJfjxNAiLX2uUYUnNFpNQmSK1w%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1a8bc3510b-IST
+1 < CF-RAY: 65e642eed9d950ed-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:51.804 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 576
+00:44:37.169 [main] INFO  com.intuit.karate - [print] Ankara 
+00:44:37.173 [main] INFO  com.intuit.karate - [print] ARM 
+00:44:37.197 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:37.576 [main] DEBUG com.intuit.karate - response time in milliseconds: 377
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:51 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:37 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -88,17 +76,26 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f24900000da1a8d23f000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=eCFKEgypR%2F6iN8cnhUCYTOB1RAC6imaWYQfJGTDrCgiNQ4fWMUhp7cjVld9N%2FWJHkDGxF%2FMnC4aybf5C5%2Fi8kQMNnhi9wzEMJ8Z9TB3Y%2F6STYTU29GQ%2Boyg3p%2BWmpw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c82a9a000050ee33b1d000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=IXosv4syBFgqN4w06nf8fiMh0GOg8Qamnb3GS1hFxpU80FHRvJSX3MEFfo8gk%2FPp5Wi11LHYWFqsH5p6vjZDH5DRuc4cAffeD3B6Zh7%2B1%2FP5dQfyvSoU9ZBc7Rp43Q%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1a8a42da1a-IST
+1 < CF-RAY: 65e642f0feb650ee-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:51.804 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 576
+00:44:37.578 [main] INFO  com.intuit.karate - [print] Ankara 
+00:44:37.593 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:37.894 [main] DEBUG com.intuit.karate - response time in milliseconds: 299
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:51 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:37 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -107,36 +104,15 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f24900000da3a0c336000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=CdbpqHiTrNUbIC3KmnaTT%2Bn5pJ5%2BRjtHprcv%2BOSYufl7cDcBN2dm4lmP%2FIb6G1I9UaqiUYySCGHts1vGIc5tVn1n6BmKz%2Bq5V%2FyHHm6SRmKWJfFzbscQtH4IJeS%2BGA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c82c20000050cff3b60000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=cVGic4gJ%2F2CskYpSkRpFpiIlzPZTNnc6lu33w6ZBR9vRuZDJ2yW%2FPykJzpegqHUghBma080heo1kMd%2BwwHAxzG%2F9H%2Fytgqyr6F06kW30acMFOHHFV3CU2n%2BA3FXkDQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1a8f08da3a-IST
+1 < CF-RAY: 65e642f36ae350cf-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:51.804 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 576
-1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:51 GMT
-1 < Content-Type: application/json;charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET
-1 < Access-Control-Allow-Headers: Accept, X-Requested-With
-1 < Cache-Control: public, max-age=86400
-1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f24920000e1a35c8e2000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=3D3SPyxkMkonfjwyM7lp5%2FjjDVLuxkaOLYEBrjfY%2Fi4i38sV5F%2ByZPVUZl3k3iArmTO1wx%2FUoQ5yBceeNgjZYX9CvSEeT3tIUs09iAbWmJtv826h1KoVD9W0sA%2Ft1w%3D%3D"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1a8bb2e1a3-IST
-{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:51.827 [pool-1-thread-5] INFO  com.intuit.karate - [print] 90 
-23:24:51.827 [pool-1-thread-1] INFO  com.intuit.karate - [print] Turkey 
-23:24:51.827 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+00:44:37.897 [main] INFO  com.intuit.karate - [print] [
   "ARM",
   "AZE",
   "BGR",
@@ -147,11 +123,7 @@
   "SYR"
 ]
  
-23:24:51.827 [pool-1-thread-3] INFO  com.intuit.karate - [print] Ankara 
-23:24:51.827 [pool-1-thread-2] INFO  com.intuit.karate - [print] Ankara 
-23:24:51.830 [pool-1-thread-1] INFO  com.intuit.karate - [print] 39.0 
-23:24:51.830 [pool-1-thread-2] INFO  com.intuit.karate - [print] ARM 
-23:24:51.859 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+00:44:37.910 [main] DEBUG com.intuit.karate - request:
 1 > GET https://restcountries.eu/rest/v2/alpha/tr
 1 > Host: restcountries.eu
 1 > Connection: Keep-Alive
@@ -159,25 +131,9 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-23:24:51.859 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:24:51.859 [pool-1-thread-1] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:24:52.184 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 324
+00:44:38.264 [main] DEBUG com.intuit.karate - response time in milliseconds: 354
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:52 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:38 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -186,17 +142,26 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f265f0000cb568820d000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=vssyvUy1cdzLx96czPHF4NpHbGjdTyOM56JEZDAU6eYrV4Pn%2BmhZAUvHlDivArZ%2BYUozsQg9Ihdzwxp46gk52jkC3LHqi0n5yzmt0L%2BDYAKqauW4TyTfFTeMk%2Bn7GQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c82d5a000050f37ea69000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=yKM3NyvEB6udPIvn0s8n66RoU4Tb7ozeJAOestA3LKMmN40IiFxz0%2BZRaMsxQJe5IOOAuneQzaXVv1QsAfJ1U6vvNsrOn7niSnvGG%2FefN5bDuaTBBZ8u1Cp%2FsJcSxg%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1d6e85cb56-IST
+1 < CF-RAY: 65e642f55f7250f3-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:52.183 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 323
+00:44:38.267 [main] INFO  com.intuit.karate - [print] 90 
+00:44:38.279 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:38.600 [main] DEBUG com.intuit.karate - response time in milliseconds: 319
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:52 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:38 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -205,17 +170,26 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f265c000050b186b2f000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=g0qb32ea9wlAEt9Yl9%2BIQ1SZXV3NtkuFx6TFHmgC0Tu6vXasryEIrcsx%2FVs1Vt45JOZwFieUuTQ94sfSSh9MQCcO%2BNQcC3GALV%2BBxbcTy71EGp%2BBYxcgoQrHVz79bA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c82ec8000050b16c3d1000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=MpK%2B3kwilT8gPhMZ7JQvzBAoOVVdp2ogFaQuZHRfHXl1CCtDeEIgRgpPH9tlk4WHLp%2Fu9aO%2FwNd3ueSVmekfwaYJ9dWWx%2BQrflLHSfwM4EtjUuWGZkBVNwB2D1ly%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1d6e9b50b1-IST
+1 < CF-RAY: 65e642f7aedb50b1-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:52.184 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 324
+00:44:38.603 [main] INFO  com.intuit.karate - [print] Turkish 
+00:44:38.614 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:39.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 393
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:24:52 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:38 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -224,21 +198,16 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa37f265e000050edeb36f000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=16sjrR75TynqSbh4ay5mp0y8AliYGBToTBvvZvT%2FlL1s09MDSUFo8gG3Mznf55dlMwkQLQbB77ZiilwiHd2J74h9qbFvmWAQy9oMz3SBowlfzz55FA6KbfxcPoXP3g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3c830190000506ff520a000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=YkBf0BkdEPB9fMoivWzW6V09BQLb7XJCmVqUnu00oyzkriH%2Bc3dggaZKmjDIi4fM%2FNJJkj2%2FWP%2BwbS0FElxP%2BKDC7c%2BSDVUeBVqT9WAEkcmG7ci%2BJoKX5e3LrV1Yjg%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5ce1d6ff150ed-IST
+1 < CF-RAY: 65e642f9cc60506f-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:24:52.189 [pool-1-thread-3] INFO  com.intuit.karate - [print] Turkish 
-23:24:52.189 [pool-1-thread-5] INFO  com.intuit.karate - [print] 39.0 
-23:24:52.189 [pool-1-thread-1] INFO  com.intuit.karate - [print] 78741053 
-23:24:52.986 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/countries/countries.feature
-23:40:16.561 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-23:40:16.565 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623530416565
-23:40:18.213 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+00:44:39.011 [main] INFO  com.intuit.karate - [print] 39.0 
+00:44:39.023 [main] DEBUG com.intuit.karate - request:
 1 > GET https://restcountries.eu/rest/v2/alpha/tr
 1 > Host: restcountries.eu
 1 > Connection: Keep-Alive
@@ -246,41 +215,698 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-23:40:18.213 [pool-1-thread-2] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:40:18.213 [pool-1-thread-4] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:40:18.213 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:40:18.213 [pool-1-thread-5] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:40:18.705 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 441
+00:44:39.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 201
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:18 GMT
+1 < Date: Sat, 12 Jun 2021 21:44:39 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c831b4000050edd2807000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=uv8DTzctBhehoAwJnVTUPvec9nDuKpby7dbdZYkuVoAQryvrlmXEghIT630td%2FF1pyg173s1IzIYqsF19O%2BiFIO64h0C%2Bt73qg6%2B6zGewEuTVYSSZc8an0h5%2FdUz7g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e642fc5bab50ed-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:44:39.229 [main] INFO  com.intuit.karate - [print] 78741053 
+00:44:40.133 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+00:45:51.087 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:45:51.090 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623534351089
+00:45:52.434 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:53.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 1539
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:53 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c95126000051187ba27000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Q3Jl98q0JIeVULq8E%2By9eiY%2Bwy4T6xVKywNnsw6d5fUY8Oh1XtaGOVzqyY0U0CLNULXtSa60ofo5RhcfpUvtrJ3McQJdXhfHwK%2F5%2BOA65LqBrIV%2FJa%2FuGCLPYpViBw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644c8398d5118-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:54.047 [main] INFO  com.intuit.karate - [print] Turkey 
+00:45:54.052 [main] INFO  com.intuit.karate - [print] 39.0 
+00:45:54.084 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:54.724 [main] DEBUG com.intuit.karate - response time in milliseconds: 639
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:54 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c956f300005099df213000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=yvupEtCgyNY32OygMrgorftaib5M311%2B7lmHWW0LReeG%2B%2F0yLoWrFJuWmiYfLuVeBQtktgiZ6nk5twndwQoMb4W%2BTohYc%2BIFQlbVFeqaXxLFQO7UN1W2Rp4lajDBIQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644d18cbb5099-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:54.727 [main] INFO  com.intuit.karate - [print] Ankara 
+00:45:54.729 [main] INFO  com.intuit.karate - [print] ARM 
+00:45:54.741 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:55.094 [main] DEBUG com.intuit.karate - response time in milliseconds: 353
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:55 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c959860000da269b0fd000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=dNp7zMlo%2FXZtLzbDMG90JvuU4HTz%2FySj%2FIRaUvVygWIutjsdS%2FlnypBRJi5WVBG8zhIQP3tftOSykJHCGXlorSgrab9XrhI1fHu0dspssQYTN8Yse9ge%2BF6NNWvGkA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644d5994eda26-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:55.096 [main] INFO  com.intuit.karate - [print] Ankara 
+00:45:55.108 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:55.613 [main] DEBUG com.intuit.karate - response time in milliseconds: 503
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:55 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c95af3000050d0e015c000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=miDZaeRM%2BroxOupZkg5x3P%2FpuO6FW9Ejt6Jy6A%2FoAmyoslZxKguZ486Mjq%2B%2BeDslE5jGFedQWjv%2FrAc3teE5J0bNTWlCRYaPMF%2FsZ%2BjyoKVtwIIAIy6IwhMT5FNPpg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644d7e88550d0-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:55.616 [main] INFO  com.intuit.karate - [print] [
+  "ARM",
+  "AZE",
+  "BGR",
+  "GEO",
+  "GRC",
+  "IRN",
+  "IRQ",
+  "SYR"
+]
+ 
+00:45:55.629 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:56.012 [main] DEBUG com.intuit.karate - response time in milliseconds: 383
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:55 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c95cf00000511e351c1000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=KC2T805wpV56o4W459T2ZwxiKveUxw6fAaaYFGWuxQdWnnx4Ce8M5s3nV5IQxiTiRl5FdwiaR4s3mbrE2nhmeJ%2Bk%2B0hwQO79ReMMO0FbkygElj9iw3R0FefU8caWUg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644db1fc8511e-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:56.016 [main] INFO  com.intuit.karate - [print] 90 
+00:45:56.028 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:56.423 [main] DEBUG com.intuit.karate - response time in milliseconds: 394
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:56 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c95e7c000050758a8b6000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=kCDu5dHZIRJ%2Bs3cLfqKFjNQMlyVReAqb8pLAmbrjrcuz9oew9YMNcDR%2FwF%2FS5%2FqN7UQQPFUJjQms%2F51eamd6okaVjtd8oQmxcVsG125%2Bn5upv9QgoIWbaMfhxpuubA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644dd99185075-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:56.426 [main] INFO  com.intuit.karate - [print] Turkish 
+00:45:56.436 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:56.834 [main] DEBUG com.intuit.karate - response time in milliseconds: 397
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:56 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c96016000050cfc68cb000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=7heNf0FFOC4P%2Fudi%2FFa1hOWyI%2Bav4sei0DXrA1%2F8%2FoZlZE708Q8ust6rrx2C10cslvAcl9Er9ZnhxwhpxzL2ep1SBoiNoagybvmD2YPMmS988EJUtI2otfEDdtrLmQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644e02e1c50cf-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:56.837 [main] INFO  com.intuit.karate - [print] 39.0 
+00:45:56.848 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:45:57.027 [main] DEBUG com.intuit.karate - response time in milliseconds: 177
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:45:57 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3c961b3000051055c19c000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=T%2F19ThWG%2F0pzQBqFq59vN9bdTMTj6NtkE7hH80KjPrCC0nuqs3X82HTnC121TXeMjW%2FolUiv%2BdrzPhrZoibp2uvjuLcUAtTMBhPayJ0cGSms5Mxa61LEN4vcjlSScw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e644e2b8d55105-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:45:57.029 [main] INFO  com.intuit.karate - [print] 78741053 
+00:45:57.800 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+00:50:51.405 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:50:51.408 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623534651408
+00:50:51.440 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^get Turkey country detail and check lang lat values\.$
+00:50:52.478 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:50:52.986 [main] DEBUG com.intuit.karate - response time in milliseconds: 486
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:50:52 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cde53c000050b7d2b56000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=lSm0PdUUwSm2I03H4P8ozIIMND37sJCZClYwdYwbhVRbgabbhMw6o2QR%2Br4a9DJCwR%2BSc5qTPgtoXCIIEw2BJ2B%2FM9XcQynALKcNYNlrcj27z3MOYXSHkY7yMW9qtw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64c1b9fe350b7-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:50:53.023 [main] INFO  com.intuit.karate - [print] Turkey 
+00:50:53.029 [main] INFO  com.intuit.karate - [print] 39.0 
+00:50:53.668 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+00:51:25.708 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:51:25.713 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623534685712
+00:51:25.753 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10 - ^get Turkey country detail and check lang lat values\.$
+00:51:26.772 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:51:27.406 [main] DEBUG com.intuit.karate - response time in milliseconds: 610
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:51:27 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3ce6b4e000050abfb91b000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=xERm%2BWOi4ORKdpbjlb8HWGb7tkqoT8iFoJlfhvS5h6qSFxlVyTI1mInenxFdopxbkXvvI%2FPBvPmgUZwa%2Fg1fYI4wNZWaqpCNkGl0%2FKtrRYcz8svYLk%2BQK35Py0AyUQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64cf21b7a50ab-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:51:27.440 [main] INFO  com.intuit.karate - [print] Turkey 
+00:51:27.444 [main] INFO  com.intuit.karate - [print] 39.0 
+00:51:28.058 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+00:52:55.584 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:52:55.592 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623534775590
+00:52:56.737 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:57.310 [main] DEBUG com.intuit.karate - response time in milliseconds: 550
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:57 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfca9b000050b7230f0000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=3NxSN%2BcC908c%2BkgCTSwgf7OqeH783Y%2FLx0gkDUjar%2FIG6Nn3fvDdEJYr98PbeLQPRjrDNHjRXs%2FZ%2BBx5rKlM5xaorVWNywIvEBV2XDqUuLIMmyUl%2F%2FH2ygvowc8Obg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f242ce250b7-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:57.344 [main] INFO  com.intuit.karate - [print] Turkey 
+00:52:57.348 [main] INFO  com.intuit.karate - [print] 39.0 
+00:52:57.376 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:57.690 [main] DEBUG com.intuit.karate - response time in milliseconds: 312
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:57 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfcc75000050b180804000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=UvlBFIAcA2EoACExakGTO3yz%2FSRgvIlye%2BvlMPiSE1XSGi1LIk7YXrkY8sSBTl5ExBfXXeFHlC6yHdjua%2BiCOzzw0EJGwofCrm%2BUmueLC2G60LEny0VeaQEmrAHwOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f272cf450b1-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:57.693 [main] INFO  com.intuit.karate - [print] Ankara 
+00:52:57.694 [main] INFO  com.intuit.karate - [print] ARM 
+00:52:57.706 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:58.100 [main] DEBUG com.intuit.karate - response time in milliseconds: 392
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:58 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfcdba0000da2ebe0e0000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=OajxWhg%2Bg6XHaf%2FRTdjziYGqtllqlV%2BXpxGG3Kn%2BKy8tJf3vpmjiw7sRoT6Fmmb%2FFs1%2F5OEV1LXszRXz%2FvDRbIjeeSXHqPO1WZTvNtmIWqiDIa%2FYRyFf8TZpp5m00A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f292f11da2e-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:58.102 [main] INFO  com.intuit.karate - [print] Ankara 
+00:52:58.114 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:58.411 [main] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:58 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfcf4d0000da2277246000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=EsRCQrryhcbESejtRcuuW%2Bp1Lq954K7YVgKYIgbyJOnVaUVlw9I9JETpaQESEDK6Eq2Hec%2FkGTgMSE%2BdL4FNohTJXQyaGLTlY9Dr%2FDa6g%2FWZ23J2AzY6wtHjfQKbzg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f2baf3fda22-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:58.414 [main] INFO  com.intuit.karate - [print] [
+  "ARM",
+  "AZE",
+  "BGR",
+  "GEO",
+  "GRC",
+  "IRN",
+  "IRQ",
+  "SYR"
+]
+ 
+00:52:58.426 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:58.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 388
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:58 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfd08c0000da3abaadd000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=RjYAC8cgXe%2FKgCQGidCRSol8%2B7HoylM%2BR8biT6D%2BEolzbxDB%2BNiWwSQ%2FwAxHYwUkyVd9I14XVtfBBKXtT0vqEZ%2F2DTHfkgB%2BWf7amyyuNq8T7iMlm%2F3dKu5kYh3AbA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f2da8cada3a-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:58.819 [main] INFO  com.intuit.karate - [print] 90 
+00:52:58.834 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:59.132 [main] DEBUG com.intuit.karate - response time in milliseconds: 297
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:59 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfd21f000051115602b000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=ahvC2%2FhVjqiYjRi1Doqly%2Fd6fZkn%2BK1K4yhIiKfR%2FI4XWUAI42A74K8Ckodbd6pObwWsAzxKTysAoQ3OqV3WNGD%2FQ%2BILVgu8gcVzhsPzanI5fOqc1koZv9f9KkUR1w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f303e935111-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:59.135 [main] INFO  com.intuit.karate - [print] Turkish 
+00:52:59.146 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:59.441 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:59 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfd35a0000cb32158da000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=LoRIF%2BfKpQirpo5uznytizb9B%2FAnDSBZVyUXYxo9enLSZZ%2FX64cojLqbbVFscZPowaE%2FojzFMVQQjoUppFChEr%2BXwDlhf2wZprLR%2BlWw8XdwaSqeCNSFVLIm4SAsJA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f32290ecb32-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:59.445 [main] INFO  com.intuit.karate - [print] 39.0 
+00:52:59.459 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:52:59.945 [main] DEBUG com.intuit.karate - response time in milliseconds: 485
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:52:59 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfd48d0000cb621a378000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Mx2gEJvsICxlprWaDzycacudjsCXiE%2B8ecveUS8EgJpViaS3UNAzTuBSDLuiVD8JURJzo%2FrLD63wetSDIziYhxHeBiW29tckcZ7oR90a7TpeS6AQ1mD943SS%2FfX%2BOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f341d9ecb62-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:52:59.947 [main] INFO  com.intuit.karate - [print] 78741053 
+00:52:59.957 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:53:00.252 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:53:00 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3cfd67d000050f9e4052000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=YlvtHE8LGW1vwL8WGYr3JtEkSPjDiffp6%2Bl3%2FtRVwk4PvN70Ok%2BYTsMEcUlg45bMO6O8qPimGiZn7x4fNDNH%2BM37cJltXtA0JpNAPF5%2FYPXoO2loKuLE5Zi8qKnu1A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e64f372a2b50f9-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:53:00.254 [main] INFO  com.intuit.karate - [print] 78741053 
+00:53:01.031 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+00:54:06.872 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:54:06.884 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623534846878
+00:54:08.131 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:08.610 [main] DEBUG com.intuit.karate - response time in milliseconds: 460
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:08 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0e1670000e196ebaf9000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=FwSg9e8XsVB8GKhVH1VAPx0YCiBlnagntGaWUXmqk%2BjgfB3fAitctKB2kVz8IitNxxvLWj9DQpH7TEEX9DAuITgrFh0j5UF%2FgQWyV4vbgi2LmhxLgKGXyWSHLUTFlA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650e23bb7e196-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:08.652 [main] INFO  com.intuit.karate - [print] Turkey 
+00:54:08.657 [main] INFO  com.intuit.karate - [print] 39.0 
+00:54:08.687 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:08.987 [main] DEBUG com.intuit.karate - response time in milliseconds: 300
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:09 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0e3020000508d8382f000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=SwZTypWv72tBXUxi8Ui0oYbs81w6XYVv27PxjJ6jN%2F%2FrZtO48RHcz1EZKpjUVI1%2BTR%2Bh6BbMIoUyIxlkL0wyxqYOHoO7t%2BclyTgeaMBGGkQkFwo99QKsRdsF8EQ%2BLQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650e4db1a508d-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:08.990 [main] INFO  com.intuit.karate - [print] Ankara 
+00:54:08.992 [main] INFO  com.intuit.karate - [print] ARM 
+00:54:09.003 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:09.373 [main] DEBUG com.intuit.karate - response time in milliseconds: 368
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:09 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0e4470000da1eda3e3000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=0EV45Yamsf4qrMGNENhyTpkg5SURmK0b0Tsbrx3IIoTCsJOn4kuAX3GG2Zcnwx8%2FJM9lPPsdlOybhdf5CQG2EZdGC7PdZ7OfwldMFDmL%2BB9rBmle3l%2B8QGdaCf6Psw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650e6de85da1e-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:09.375 [main] INFO  com.intuit.karate - [print] Ankara 
+00:54:09.387 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:09.684 [main] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:09 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -289,15 +915,15 @@
 1 < access-control-allow-headers: Accept, X-Requested-With
 1 < cache-control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d497f000050e8ccaff000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=MDCJxREDq80VcaWu8Pl6Zs5aw83Zp0VXJWmkKNBILFMbEqUlSod5t7dRVaFoAfaxJo3eNFSNbY1IHdc5CrSJBzGXndsZKcjxw2qHLMrMYIhYZpfDSMX3hD5mPMw4gw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d0e5b9000050619f04a000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=hMCWkR6sBUsHFWvvab%2FqM%2BjrWq4EqdKJcuFErwpEHx7lQY%2BNwJddFOHBTNGn2batrs3i%2BuMLM9yBewDhOLx1548m%2FED8JV8cnVw16ztmQCO6Po77KeGR9hZaedR6cg%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4bbfd3350e8-IST
+1 < CF-RAY: 65e650e928b55061-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:18.728 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+00:54:09.688 [main] INFO  com.intuit.karate - [print] [
   "ARM",
   "AZE",
   "BGR",
@@ -308,9 +934,17 @@
   "SYR"
 ]
  
-23:40:18.740 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 526
+00:54:09.700 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:10.003 [main] DEBUG com.intuit.karate - response time in milliseconds: 302
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:18 GMT
+1 < Date: Sat, 12 Jun 2021 21:54:10 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -319,17 +953,170 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d497f0000da1eb5972000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=v7Cv%2BLB%2BA7juNmTfBeJfSZoZOIRAE3DVvqQLGeLVQC5rxY9BTwox0epcujfM4AzoVtJGY%2BsyB6Gv82d1yX1Ms%2BZodIjQYhaO09iA%2FUHKfvSwoEcSMs23E59oj23AmA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d0e6f1000050cfe42c7000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Op4Bk4H1gxnH6WFlRf6HLYYhvkc3mV3VK6uYX5AsXH98QNLTBYBCnoSnn1YhOic1KXlgCmmB3omecUJrYdUMbzdw005MeaOcy1wYv867OK9t4rZii2AKmvishiJ%2F2A%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4bbfdacda1e-IST
+1 < CF-RAY: 65e650eb1ece50cf-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:18.742 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 528
+00:54:10.006 [main] INFO  com.intuit.karate - [print] 90 
+00:54:10.017 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:10.339 [main] DEBUG com.intuit.karate - response time in milliseconds: 321
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:18 GMT
+1 < Date: Sat, 12 Jun 2021 21:54:10 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0e82e0000cb46e2a77000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=aZPVG3nvCWs8L2NcznQsYwYN%2B8zNFwgh1DZfIcoNaYsWO%2BqSkyLu0%2Fb0U8BST9YZErgk%2B4xQr5rFMakrkPqDDBl1q1kVyfk%2BMJ638aLftrm%2F8j2%2FG72tYogx22Pizg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650ed1c61cb46-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:10.341 [main] INFO  com.intuit.karate - [print] Turkish 
+00:54:10.353 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:10.647 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:10 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0e97b0000cb564e065000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=7ttbXXJ04uWcmkTgqy8WnWCxhPV%2FXkIkJVKDBdjWsKeFugVXKYNRbI3dabhb4ETJqU5b5Qp2CQR8S9qq0ukHPegVKuSrf9NdTVyN8zr8liO3CFaAe9BHcByWinRekQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650ef28aecb56-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:10.650 [main] INFO  com.intuit.karate - [print] 39.0 
+00:54:10.661 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:10.955 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:10 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0eaaf00005061bc98c000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=g%2FDiiorh0IbakbZ3lN8JOxtbm%2B%2BAdSssFDvR%2FZqFbOfbijwrXPVDmxqOBhceacnlJBNwkM4ZbKzgOQIjNkhm3GGYF4jKhjMiWxpv3MchFpVwKHGdhXqBILSLQQfeYw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650f11dfb5061-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:10.957 [main] INFO  com.intuit.karate - [print] 78741053 
+00:54:10.967 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:54:11.265 [main] DEBUG com.intuit.karate - response time in milliseconds: 298
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:54:11 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d0ebe40000cb2a331e4000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=3kR434rlpqC6h7WgPjpq9miZtbHhJE4fuJAHMGuNieHrtCXBAa1ia5TcNGhoJlEvKyCAm%2Ffw1iKp%2BKRpSgElZqiOqxpLJPIzEftTgSEZjLXJH1mu6PXca5lS99PHGg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e650f30aedcb2a-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:54:11.268 [main] INFO  com.intuit.karate - [print] 783562.0 
+00:54:12.030 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+00:55:59.660 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:55:59.665 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623534959665
+00:56:00.867 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:01.348 [main] DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:56:01 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d299cc0000507594aa6000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=WxekKjuqlWw0wpGdOgDldQ9EDS9LTT6U5J9%2FwrBeE11BljI7RJ9NnJ28el94HDAkU4U6MWFIu4%2BvJXPFx8w4IiKauNiAc1whOpCHWJUStGXo2bEBszjpfJ%2FFMBKUwQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e653a2deff5075-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:56:01.386 [main] INFO  com.intuit.karate - [print] Turkey 
+00:56:01.391 [main] INFO  com.intuit.karate - [print] 39.0 
+00:56:01.419 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:01.752 [main] DEBUG com.intuit.karate - response time in milliseconds: 332
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:56:01 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -338,18 +1125,27 @@
 1 < access-control-allow-headers: Accept, X-Requested-With
 1 < cache-control: public, max-age=86400
 1 < cf-cache-status: DYNAMIC
-1 < cf-request-id: 0aa38d497f000050758a2d4000000001
-1 < report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=WIKpHOiqhfGCdbl3xFPSuXsPdFQw%2BpHJbY6fNJbBPq0zs6jHWCjKHiAIr78tfKVcwg6pJZFtqOlzIj%2FrCtPoxbqA6kIx9kECHHTi2LxXJKmyJKJpvKZjboaHBkyyMQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d29b5d000050e11630b000000001
+1 < report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=45v8V%2FTMSFO4vjxT4oH30zDk3IPO3ZI35P3CBZyiJVOKyn3gUfpKtfOH9xN10lJE5Gw2AqZqaqYK0pgpNG4lxm6rs6wqfxY%2FmbnSUVCJBKvYP9TgS9rzBA1nLAjlYQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < nel: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4bbfc185075-IST
+1 < CF-RAY: 65e653a5699f50e1-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:18.745 [pool-1-thread-2] INFO  com.intuit.karate - [print] Ankara 
-23:40:18.749 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 535
+00:56:01.755 [main] INFO  com.intuit.karate - [print] Ankara 
+00:56:01.756 [main] INFO  com.intuit.karate - [print] ARM 
+00:56:01.767 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:01.944 [main] DEBUG com.intuit.karate - response time in milliseconds: 175
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:18 GMT
+1 < Date: Sat, 12 Jun 2021 21:56:01 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -358,20 +1154,26 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d497f0000cb46bd210000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=zxbd%2BBNRIxaKmB%2FJ2j22iGve%2BFt4kTjiJ2eWXDdk765lF6sZ4OcNZ5riIVrGU0Ds4QMJXwMamT%2BOrKIdRWiTPLACDba2QWE2CrOY4wAeCrZwA2q708hpwMLdExU7iQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d29cb20000509f4d0a5000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=dULoTYCznaCQlkoX29Rsc5Tprb%2FJfKpehAAiuOy7ZFBc6g2B4svjPgH%2BTz4%2Fb%2B1h%2FgPphnDpY39LFRk%2B%2BePxWB5YOjUMYMstNXhKwi02jFttHU6NuSKHAFa4nX2Dqg%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4bbffb6cb46-IST
+1 < CF-RAY: 65e653a78b0f509f-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:18.753 [pool-1-thread-5] INFO  com.intuit.karate - [print] 90 
-23:40:18.753 [pool-1-thread-2] INFO  com.intuit.karate - [print] ARM 
-23:40:18.754 [pool-1-thread-1] INFO  com.intuit.karate - [print] Turkey 
-23:40:18.755 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 541
+00:56:01.947 [main] INFO  com.intuit.karate - [print] Ankara 
+00:56:01.958 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:02.320 [main] DEBUG com.intuit.karate - response time in milliseconds: 360
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:18 GMT
+1 < Date: Sat, 12 Jun 2021 21:56:02 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -380,17 +1182,26 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d49840000cb361fa1b000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=I2UZ47mKozTHPePvIkFUGgmlWF%2FEt4s301n%2BtPo%2FLz0KfFPqEVcYXkfJmgJhOITyKsn3IU4H389%2BAqz4UgDx%2BOzH9N%2BHB%2BWYcexVcA%2FgrE3GMVvWTpUgx30sT%2Fhb%2FA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d29d6f00005075ba057000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=jPOZuFZaoNjX8HCz5M3MDUqhE%2BKygp5bjlZMx36fQEkuaOUyKToHmsaTtwNxe0NUQDP9GvaeaKm6hcLijAZCYanEnDbpmM7UzoVa7Cc6DrJUAEKqrvi8PvkxUh0rUA%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4bc0f45cb36-IST
+1 < CF-RAY: 65e653a8baff5075-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:18.757 [pool-1-thread-1] INFO  com.intuit.karate - [print] 39.0 
-23:40:18.757 [pool-1-thread-3] INFO  com.intuit.karate - [print] Ankara 
-23:40:18.777 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+00:56:02.323 [main] INFO  com.intuit.karate - [print] [
+  "ARM",
+  "AZE",
+  "BGR",
+  "GEO",
+  "GRC",
+  "IRN",
+  "IRQ",
+  "SYR"
+]
+ 
+00:56:02.335 [main] DEBUG com.intuit.karate - request:
 1 > GET https://restcountries.eu/rest/v2/alpha/tr
 1 > Host: restcountries.eu
 1 > Connection: Keep-Alive
@@ -398,25 +1209,9 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-23:40:18.777 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:40:18.777 [pool-1-thread-5] DEBUG com.intuit.karate - request:
-1 > GET https://restcountries.eu/rest/v2/alpha/tr
-1 > Host: restcountries.eu
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
-1 > Accept-Encoding: gzip,deflate
-
-
-23:40:18.970 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 192
+00:56:02.730 [main] DEBUG com.intuit.karate - response time in milliseconds: 394
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:19 GMT
+1 < Date: Sat, 12 Jun 2021 21:56:02 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -425,18 +1220,54 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d4ad0000050ab02be1000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Dw4UdkpsreLRN4IoO4I7CLly%2BlTTWGYCbk7LCh5roxB2lAtx9G%2BdzjK6%2BDzUXr5BAUJ%2FucHBBJEeUJ4SOIxFlnu0HiI6cSD071QFgFohjLzlzrhwupe4R6eabK%2BOZA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d29ee6000050b8a13c9000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=jX0ng4wViSFP7YGwdSsigcfAGYg4ayZmliVn6XIe9vQ0WVZ9vnrtUYOKjBbrEgSAaKczjQDnx%2Bx74Ef699LRSmhKiZEBJQgALBIqhJCSG3yGsdO8GZRUQgRBsfpgog%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4be199f50ab-IST
+1 < CF-RAY: 65e653ab0fec50b8-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:18.973 [pool-1-thread-2] INFO  com.intuit.karate - [print] 78741053 
-23:40:19.084 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 307
+00:56:02.733 [main] INFO  com.intuit.karate - [print] 90 
+00:56:02.746 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:03.138 [main] DEBUG com.intuit.karate - response time in milliseconds: 390
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:19 GMT
+1 < Date: Sat, 12 Jun 2021 21:56:03 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d2a0880000506fd421a000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Z0NZDJdlVyt43y9nz5ge2%2Bac83vg5AB1gycSmKgj1HSBdn7%2FYRsv2YGub5A%2F3LrjlzzdTablE%2FohNm57uWAjshwR2WxyWF9Mx9JMM%2BpsHrBgySn0xPm4SLtCXIifTw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e653adac0e506f-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:56:03.140 [main] INFO  com.intuit.karate - [print] Turkish 
+00:56:03.154 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:03.467 [main] DEBUG com.intuit.karate - response time in milliseconds: 312
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:56:03 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -444,19 +1275,27 @@
 1 < access-control-allow-methods: GET
 1 < access-control-allow-headers: Accept, X-Requested-With
 1 < cache-control: public, max-age=86400
-1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d4ad3000050ab091d7000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=KX5X2UzZQIeoXiSeEHWgtwLl6r4jKlfiTToehL9SduBrXtcDko8nxNzDrHzFPZKGW3mXE2lxEKG0OdMDvBW2tNfnvTWHCnvTNTG7RWqzUNucvd2WTAmmiEmGRtOCPA%3D%3D"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < cf-cache-status: DYNAMIC
+1 < cf-request-id: 0aa3d2a23300005112d4903000000001
+1 < report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=TwnpsHwk4ZOZRu%2FLD46GPRXmVn1ePK6ctXHxHI70i9otPTgwpGBJVWnY69udbUqQvSjHjNW9K9W7V9xbeC2w88Qz92giFK4pkzjUPCKFJzl9Fc%2FPK6%2BGU1e5SLdZ7Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < nel: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4be19a250ab-IST
+1 < CF-RAY: 65e653b05a2f5112-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:19.088 [pool-1-thread-3] INFO  com.intuit.karate - [print] Turkish 
-23:40:19.088 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 311
+00:56:03.469 [main] INFO  com.intuit.karate - [print] 39.0 
+00:56:03.479 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:03.775 [main] DEBUG com.intuit.karate - response time in milliseconds: 296
 1 < 200
-1 < Date: Sat, 12 Jun 2021 20:40:19 GMT
+1 < Date: Sat, 12 Jun 2021 21:56:03 GMT
 1 < Content-Type: application/json;charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -465,13 +1304,72 @@
 1 < Access-Control-Allow-Headers: Accept, X-Requested-With
 1 < Cache-Control: public, max-age=86400
 1 < CF-Cache-Status: DYNAMIC
-1 < cf-request-id: 0aa38d4ad5000050ee48338000000001
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=APShIJII85rLErc%2BGDG8Z%2FCaQQVrO8Ch%2FUv7il3dMKY%2BHDt%2BlhstVhM%2BuGSDXlMUfRnMdXH1JzoVJnjQbQ8cogbUYt%2BqyBOnBve4P8QKoYVEvoJB4IyOBbY3G%2Bo7%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < cf-request-id: 0aa3d2a3640000e196311da000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=T0L43rlX7BpIXY9PwWs4HZPUIa1TBzfbhvchv59mbrWDwbDJ6AvZl8NB7azRHgXzq%2Fv3uU3ZjFHUI%2BeHY8Z45LYMZdAKrAxi%2FGZf7pUTKyX5ZdxkY4CBxtuT%2FPJ2bw%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < CF-RAY: 65e5e4be297a50ee-IST
+1 < CF-RAY: 65e653b23d56e196-IST
 {"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
-23:40:19.091 [pool-1-thread-5] INFO  com.intuit.karate - [print] 39.0 
-23:40:19.904 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/countries/countries.feature
+00:56:03.778 [main] INFO  com.intuit.karate - [print] 78741053 
+00:56:03.788 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:04.088 [main] DEBUG com.intuit.karate - response time in milliseconds: 298
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:56:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aa3d2a49a00005087cba43000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=aX19YFHOiotlLX%2BPKHH53rv9Eu9tGiYOBW6g4WcBpXOY5BAPQaTr92AtSiqvQsHMTnng6c%2BpP0ZRKLm6%2FF2pb0G7CLQbXJ%2BJ4O4E5ExRTqHQ5WdO42wxGWgTn3Iv4w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e653b428245087-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:56:04.091 [main] INFO  com.intuit.karate - [print] 783562.0 
+00:56:04.100 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:56:04.393 [main] DEBUG com.intuit.karate - response time in milliseconds: 292
+1 < 200
+1 < Date: Sat, 12 Jun 2021 21:56:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < access-control-allow-origin: *
+1 < access-control-allow-methods: GET
+1 < access-control-allow-headers: Accept, X-Requested-With
+1 < cache-control: public, max-age=86400
+1 < cf-cache-status: DYNAMIC
+1 < cf-request-id: 0aa3d2a5ce00005093713d4000000001
+1 < report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=pj0JyVqK8HXBa4HgApflHIUEU4V0%2B8t6fEbCogNCAx%2Bo3vGj9Y8Lk%2BrGuHQ441BO5w5xUuyevjdcO6b2%2FA9gZ7pzL2rqUfvaUeujrpkYXczqs%2FSJE5VDdzrqe8epng%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < nel: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65e653b61c2f5093-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+00:56:04.395 [main] INFO  com.intuit.karate - [print] [
+  ".tr"
+]
+ 
+00:56:05.167 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
