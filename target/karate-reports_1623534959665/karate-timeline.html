@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[1:10]","start":1623534847716,"end":1623534848672,"title":"src\/test\/java\/examples\/countries\/countries[1:10] 00:54:07.716-00:54:08.672 get Turkey country detail and check lang lat values."},{"id":2,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[2:18]","start":1623534848682,"end":1623534848992,"title":"src\/test\/java\/examples\/countries\/countries[2:18] 00:54:08.682-00:54:08.992 get Turkey country detail and check capital city."},{"id":3,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[3:25]","start":1623534848999,"end":1623534849376,"title":"src\/test\/java\/examples\/countries\/countries[3:25] 00:54:08.999-00:54:09.376 get Turkey country detail and check region."},{"id":4,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[4:32]","start":1623534849384,"end":1623534849689,"title":"src\/test\/java\/examples\/countries\/countries[4:32] 00:54:09.384-00:54:09.689 get Turkey country detail and check neighbors."},{"id":5,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[5:39]","start":1623534849695,"end":1623534850006,"title":"src\/test\/java\/examples\/countries\/countries[5:39] 00:54:09.695-00:54:10.006 get Turkey country detail and check CallingCodes."},{"id":6,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[6:46]","start":1623534850012,"end":1623534850341,"title":"src\/test\/java\/examples\/countries\/countries[6:46] 00:54:10.012-00:54:10.341 get Turkey country detail and check demonym."},{"id":7,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[7:54]","start":1623534850348,"end":1623534850650,"title":"src\/test\/java\/examples\/countries\/countries[7:54] 00:54:10.348-00:54:10.650 get Turkey country detail and check gini."},{"id":8,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[8:61]","start":1623534850656,"end":1623534850957,"title":"src\/test\/java\/examples\/countries\/countries[8:61] 00:54:10.656-00:54:10.957 get Turkey country detail and check population."},{"id":9,"group":1,"content":"src\/test\/java\/examples\/countries\/countries[9:68]","start":1623534850962,"end":1623534851268,"title":"src\/test\/java\/examples\/countries\/countries[9:68] 00:54:10.962-00:54:11.268 get Turkey country detail and check area."}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

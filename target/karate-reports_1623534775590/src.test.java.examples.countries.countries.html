@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.countries.countries</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-06-13 12:51:27 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:10]"><span>[1:10]</span> <span>get Turkey country detail and check lang lat values.</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/countries/countries.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get Country Attributes</span>
+          <span class="feature-description">for help, see: https://github.com/intuit/karate/wiki/IDE-Support</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:10]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:10]</span>
+                <span class="scenario-name">get Turkey country detail and check lang lat values.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>878</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:10]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;alpha/tr&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">823</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">00:51:26.773 request:
+1 &gt; GET https://restcountries.eu/rest/v2/alpha/tr
+1 &gt; Host: restcountries.eu
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+00:51:27.407 response time in milliseconds: 610
+1 &lt; 200
+1 &lt; Date: Sat, 12 Jun 2021 21:51:27 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET
+1 &lt; Access-Control-Allow-Headers: Accept, X-Requested-With
+1 &lt; Cache-Control: public, max-age=86400
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; cf-request-id: 0aa3ce6b4e000050abfb91b000000001
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v2?s=xERm%2BWOi4ORKdpbjlb8HWGb7tkqoT8iFoJlfhvS5h6qSFxlVyTI1mInenxFdopxbkXvvI%2FPBvPmgUZwa%2Fg1fYI4wNZWaqpCNkGl0%2FKtrRYcz8svYLk%2BQK35Py0AyUQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 65e64cf21b7a50ab-IST
+{&quot;area&quot;:783562.0,&quot;nativeName&quot;:&quot;Türkiye&quot;,&quot;capital&quot;:&quot;Ankara&quot;,&quot;demonym&quot;:&quot;Turkish&quot;,&quot;flag&quot;:&quot;https:\/\/restcountries.eu\/data\/tur.svg&quot;,&quot;alpha2Code&quot;:&quot;TR&quot;,&quot;languages&quot;:[{&quot;nativeName&quot;:&quot;Türkçe&quot;,&quot;iso639_2&quot;:&quot;tur&quot;,&quot;name&quot;:&quot;Turkish&quot;,&quot;iso639_1&quot;:&quot;tr&quot;}],&quot;borders&quot;:[&quot;ARM&quot;,&quot;AZE&quot;,&quot;BGR&quot;,&quot;GEO&quot;,&quot;GRC&quot;,&quot;IRN&quot;,&quot;IRQ&quot;,&quot;SYR&quot;],&quot;subregion&quot;:&quot;Western Asia&quot;,&quot;callingCodes&quot;:[&quot;90&quot;],&quot;regionalBlocs&quot;:[],&quot;gini&quot;:39.0,&quot;population&quot;:78741053,&quot;numericCode&quot;:&quot;792&quot;,&quot;alpha3Code&quot;:&quot;TUR&quot;,&quot;topLevelDomain&quot;:[&quot;.tr&quot;],&quot;timezones&quot;:[&quot;UTC+03:00&quot;],&quot;cioc&quot;:&quot;TUR&quot;,&quot;translations&quot;:{&quot;br&quot;:&quot;Turquia&quot;,&quot;de&quot;:&quot;Türkei&quot;,&quot;pt&quot;:&quot;Turquia&quot;,&quot;ja&quot;:&quot;トルコ&quot;,&quot;hr&quot;:&quot;Turska&quot;,&quot;it&quot;:&quot;Turchia&quot;,&quot;fa&quot;:&quot;ترکیه&quot;,&quot;fr&quot;:&quot;Turquie&quot;,&quot;es&quot;:&quot;Turquía&quot;,&quot;nl&quot;:&quot;Turkije&quot;},&quot;name&quot;:&quot;Turkey&quot;,&quot;altSpellings&quot;:[&quot;TR&quot;,&quot;Turkiye&quot;,&quot;Republic of Turkey&quot;,&quot;Türkiye Cumhuriyeti&quot;],&quot;region&quot;:&quot;Asia&quot;,&quot;latlng&quot;:[39.0,35.0],&quot;currencies&quot;:[{&quot;symbol&quot;:null,&quot;code&quot;:&quot;TRY&quot;,&quot;name&quot;:&quot;Turkish lira&quot;}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response.name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">32</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">00:51:27.440 [print] Turkey 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response.latlng[0]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">00:51:27.444 [print] 39.0 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match response.latlng[0] == 39</span>
+      </div>
+    </div>
+    <div class="time-cell passed">14</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
