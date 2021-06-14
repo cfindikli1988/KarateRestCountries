@@ -34,7 +34,14 @@ Feature: Get Country Attributes
     Then print response.borders
 
     * match response.borders[0] == 'ARM'
+    * match response.borders[1] == 'AZE'
+    * match response.borders[2] == 'BGR'
+    * match response.borders[3] == 'GEO'
     * match response.borders[4] == 'GRC'
+    * match response.borders[5] == 'IRN'
+    * match response.borders[6] == 'IRQ'
+    * match response.borders[7] == 'SYR'
+
 
   Scenario: get Turkey country detail and check CallingCodes.
 
@@ -74,3 +81,4 @@ Feature: Get Country Attributes
     Then print response.topLevelDomain
 
     * match response.topLevelDomain[0] == ".tr"
+
