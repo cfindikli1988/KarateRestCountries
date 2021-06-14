@@ -26,7 +26,6 @@ Feature: Get Country Attributes
 
     Then print response.capital
 
-
     * match response.region == 'Asia'
 
   Scenario: get Turkey country detail and check neighbors.
@@ -41,21 +40,17 @@ Feature: Get Country Attributes
     * match response.borders[5] == 'IRN'
     * match response.borders[6] == 'IRQ'
     * match response.borders[7] == 'SYR'
-    * match response.borders[7] != 'RUS'
-
 
 
   Scenario: get Turkey country detail and check CallingCodes.
 
     Then print response.callingCodes[0]
 
-
     * match response.callingCodes[0] == "90"
 
   Scenario: get Turkey country detail and check demonym.
 
     Then print response.demonym
-
 
     * match response.demonym == "Turkish"
 
@@ -83,4 +78,3 @@ Feature: Get Country Attributes
     Then print response.topLevelDomain
 
     * match response.topLevelDomain[0] == ".tr"
-
