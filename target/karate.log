@@ -1666,3 +1666,91 @@ classpath:examples/countries/countries.feature:7
 ]
  
 08:04:28.562 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+08:11:54.651 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:11:54.655 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623647514654
+08:11:54.676 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 32 - ^get Turkey country detail and check neighbors\.$
+08:11:55.782 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:11:56.344 [main] DEBUG com.intuit.karate - response time in milliseconds: 536
+1 < 200
+1 < Date: Mon, 14 Jun 2021 05:11:56 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Cache-Control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aaa880d98000050bef416e000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=ToKuVzMKjo0UqnA9UUiI4wnURLleF7DrPmtGfpHigNuqCWstqvxHzDGEctxs2ygLUkiph2g7UGCUyVRvfK%2FeHwJTpxWuUYAxdl8UlcvM%2B0BqPu1tnZuz5z3ABR6Erw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65f10f8f5cbb50be-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+08:11:56.391 [main] INFO  com.intuit.karate - [print] [
+  "ARM",
+  "AZE",
+  "BGR",
+  "GEO",
+  "GRC",
+  "IRN",
+  "IRQ",
+  "SYR"
+]
+ 
+08:11:56.416 [main] ERROR com.intuit.karate - src/test/java/examples/countries/countries.feature:44
+* match response.borders[7] =! 'RUS'
+syntax error, expected '==' for match
+src/test/java/examples/countries/countries.feature:44
+08:11:57.075 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature
+08:12:07.201 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:12:07.208 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623647527207
+08:12:07.263 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 32 - ^get Turkey country detail and check neighbors\.$
+08:12:08.413 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restcountries.eu/rest/v2/alpha/tr
+1 > Host: restcountries.eu
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:12:09.070 [main] DEBUG com.intuit.karate - response time in milliseconds: 627
+1 < 200
+1 < Date: Mon, 14 Jun 2021 05:12:09 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < access-control-allow-origin: *
+1 < access-control-allow-methods: GET
+1 < access-control-allow-headers: Accept, X-Requested-With
+1 < cache-control: public, max-age=86400
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0aaa883ec2000050a63aa70000000001
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=dBSw2d%2FE44Reo8TO7dVNn3D7l0pT1A%2BKpks9OEsS3vVByhE3Qxod0jOmQKiA%2Bj4tDyrqq9z25%2BEfR1BvZFz3yXhT6gG9SZj%2BdIi3vNCJeCASa82KLgERxfJ7CYwumg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < CF-RAY: 65f10fde099c50a6-IST
+{"area":783562.0,"nativeName":"Türkiye","capital":"Ankara","demonym":"Turkish","flag":"https:\/\/restcountries.eu\/data\/tur.svg","alpha2Code":"TR","languages":[{"nativeName":"Türkçe","iso639_2":"tur","name":"Turkish","iso639_1":"tr"}],"borders":["ARM","AZE","BGR","GEO","GRC","IRN","IRQ","SYR"],"subregion":"Western Asia","callingCodes":["90"],"regionalBlocs":[],"gini":39.0,"population":78741053,"numericCode":"792","alpha3Code":"TUR","topLevelDomain":[".tr"],"timezones":["UTC+03:00"],"cioc":"TUR","translations":{"br":"Turquia","de":"Türkei","pt":"Turquia","ja":"トルコ","hr":"Turska","it":"Turchia","fa":"ترکیه","fr":"Turquie","es":"Turquía","nl":"Turkije"},"name":"Turkey","altSpellings":["TR","Turkiye","Republic of Turkey","Türkiye Cumhuriyeti"],"region":"Asia","latlng":[39.0,35.0],"currencies":[{"symbol":null,"code":"TRY","name":"Turkish lira"}]}
+08:12:09.123 [main] INFO  com.intuit.karate - [print] [
+  "ARM",
+  "AZE",
+  "BGR",
+  "GEO",
+  "GRC",
+  "IRN",
+  "IRQ",
+  "SYR"
+]
+ 
+08:12:09.763 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/countries/countries.feature

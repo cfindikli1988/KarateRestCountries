@@ -41,6 +41,8 @@ Feature: Get Country Attributes
     * match response.borders[5] == 'IRN'
     * match response.borders[6] == 'IRQ'
     * match response.borders[7] == 'SYR'
+    * match response.borders[7] != 'RUS'
+
 
 
   Scenario: get Turkey country detail and check CallingCodes.
