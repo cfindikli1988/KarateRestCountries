@@ -11,9 +11,11 @@ Feature: Get Country Attributes
 
     Then print response.name
     Then print response.latlng[0]
+    Then print response.latlng
 
-    * match response.latlng[0] == 39
-    * match response.latlng[1] == 35
+    And match response.latlng[*]  ==   [39.0,35.0]
+
+ 
 
   Scenario: get Turkey country detail and check capital city.
 
