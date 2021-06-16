@@ -15,7 +15,6 @@ Feature: Get Country Attributes
 
     And match response.latlng[*]  ==   [39.0,35.0]
 
- 
 
   Scenario: get Turkey country detail and check capital city.
 
