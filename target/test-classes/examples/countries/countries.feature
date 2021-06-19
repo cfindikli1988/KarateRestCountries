@@ -1,20 +1,15 @@
 Feature: Get Country Attributes
-  for help, see: https://github.com/intuit/karate/wiki/IDE-Support
-
   Background:
     * url baseURL
     Given path 'alpha/tr'
     When method get
     Then status 200
-
   Scenario: get Turkey country detail and check lang lat values.
 
     Then print response.name
     Then print response.latlng[0]
-    Then print response.latlng
 
     And match response.latlng[*]  ==   [39.0,35.0]
-
 
   Scenario: get Turkey country detail and check capital city.
 
@@ -69,7 +64,6 @@ Feature: Get Country Attributes
     * match response.population == 78741053
 
   Scenario: get Turkey country detail and check area.
-
     Then print response.area
 
     * match response.area == 783562
