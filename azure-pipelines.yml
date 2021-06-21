@@ -23,7 +23,7 @@ steps:
 - task: PublishCucumberReport@1
   displayName: 'Publish Cucumber Report'
   inputs:
-    jsonDir: ./results/cucumber
+    jsonDir: ./target/cucumber-html-reports
     outputPath: ./results/cucumber
     metadata: |
      {
